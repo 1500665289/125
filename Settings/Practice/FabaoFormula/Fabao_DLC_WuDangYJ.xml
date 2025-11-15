@@ -1,0 +1,19 @@
+<FabaoFormulas><List>
+	<!-- 无尘剑 -->
+	<Fabao Name="MiBaoFormula_WuChenJian">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_WuChenJian</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+
+	<!-- 镇妖剑 -->
+	<Fabao Name="MiBaoFormula_ZhenYaoJian">
+		<Normal>0</Normal>
+		<ItemName>Item_MiBao_ZhenYaoJian</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>1</Count>
+	</Fabao>
+</List></FabaoFormulas>

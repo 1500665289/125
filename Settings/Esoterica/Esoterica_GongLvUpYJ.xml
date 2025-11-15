@@ -1,0 +1,143 @@
+﻿<Esotericas><List>
+
+	<Esoterica Name="GongYJ_LvUpEsoterica_1">
+		<DisplayName>剑意</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>御剑伏魔诀之入门，凝练纯粹的剑意，可以从根本上提高法宝威力。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_1</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_2">
+		<DisplayName>剑意</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>御剑伏魔诀之入门，凝练纯粹的剑意，可以从根本上提高法宝威力。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_1</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_3">
+		<DisplayName>御剑术</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀记载的御器入门之术，依此法御物可使气脉悠长。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝回灵倍率[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_3</Modifier>	
+	</Esoterica>
+	<Esoterica Name="GongYJ_LvUpEsoterica_4">
+		<DisplayName>御剑术</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀记载的御器入门之术，依此法御物可使气脉悠长。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝回灵倍率[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_3</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_5">
+		<DisplayName>剑灵</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>以伏魔剑意凝聚剑灵，可提升御器数量。并以此为引，分化一条元神分神。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<GodSoulCount>1</GodSoulCount>
+		<EffectDesc>[size=10][color=#D06508]法宝数量加二\n增加一条元神分神[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_5</Modifier>
+	</Esoterica>
+	<Esoterica Name="GongYJ_LvUpEsoterica_6">
+		<DisplayName>极剑·二</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以剑唯二，舍剑无物，此法可大幅提升法宝威力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_6</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_7">
+		<DisplayName>我剑·二</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以元神合剑的绝世剑法秘诀，此法可大幅提升法宝威力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_6</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_8">
+		<DisplayName>极剑·三</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以剑唯二，舍剑无物，修到极致可提高驾驭法宝数量。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]领悟御剑真意御器技能突破极限30级。\n法宝数量加一\n极大提高法宝威力\n极大提高法宝灵气恢复速度\n极大提高法宝灵气值\n极大提高法宝飞行速度\n极大提高法宝转向速度\n极大提高法宝击退能力\n极大提高法宝抗击退能力\n极大提高法宝拖尾长度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_9</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_9">
+		<DisplayName>我剑·三</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以元神合剑的绝世剑法秘诀，修到极致可提高驾驭法宝数量。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]领悟御剑真意御器技能突破极限30级。\n法宝数量加一\n极大提高法宝威力\n极大提高法宝灵气恢复速度\n极大提高法宝灵气值\n极大提高法宝飞行速度\n极大提高法宝转向速度\n极大提高法宝击退能力\n极大提高法宝抗击退能力\n极大提高法宝拖尾长度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_LvUpEsoterica_9</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="GongYJ_LvUpEsoterica_10">
+		<DisplayName>秘宝：无尘剑、镇妖剑</DisplayName>
+		<Hide>2</Hide>
+		<StarLevel>1</StarLevel>
+		<Difficulty>4</Difficulty>
+		<Desc>记录秘宝：无尘剑、镇妖剑的炼制方法。</Desc>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得 秘宝：\n无尘剑、镇妖剑[/color][/size]</EffectDesc>
+		<Fabaos>
+			<li>MiBaoFormula_WuChenJian</li>
+			<li>MiBaoFormula_ZhenYaoJian</li>
+		</Fabaos>
+	</Esoterica> 
+</List></Esotericas>

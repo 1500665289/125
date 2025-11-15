@@ -1,0 +1,285 @@
+﻿<Esotericas><List>
+	<!--<Esoterica Name="DanFang_TongYong">
+		<DisplayName>真丹要略</DisplayName>
+		<Desc>记录修行界常见丹药炼制方法的著作。</Desc>
+		<Element>None</Element>
+		<Exp>123</Exp>
+		<EffectDesc>各种强大的功能</EffectDesc>
+		<Skills>
+			<li>TSkillSkill</li>
+		</Skills>
+		<Dans>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+			<li>Dan_IncreaseLife4</li>
+		</Dans>
+		<Places>
+			<li>Place_KunLun1</li>
+		</Places>
+		<Secrets>
+			<li>4</li>
+		</Secrets>
+		<Flags></Flags>
+		<Modifier>Dissatisfaction</Modifier>	
+	</Esoterica> -->
+	<Esoterica Name="GongYJ_Esoterica_1">
+		<DisplayName>剑意</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀之入门，凝练纯粹的剑意，可以从根本上提高法宝威力。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_1</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_2">
+		<DisplayName>御剑伏魔体</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>借助剑意淬炼经脉，铸就御剑伏魔体。能提高功法匹配度增加灵气最大值。此外还记载有剑丸的炼制方法。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高功法匹配度。\n提高灵气最大值30000\n习得 丹方：剑丸[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_2</Modifier>	
+		<Dans>
+			<li>Dan_SwordBall</li>
+		</Dans>		
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_3">
+		<DisplayName>伏魔剑意</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>仙剑派镇派剑意心法，先以剑饲灵，再借剑御灵，能全面增强御器之术的威力。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]\n法宝数量加一\n极大提高法宝威力\n极大提高法宝灵气恢复速度\n极大提高法宝灵气值\n极大提高法宝飞行速度\n极大提高法宝转向速度\n极大提高法宝击退能力\n极大提高法宝抗击退能力\n极大提高法宝拖尾长度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_3</Modifier>
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_4">
+		<DisplayName>御剑术</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀记载的御器入门之术，依此法御物可使气脉悠长。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提升法宝回灵倍率[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_4</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_5">
+		<DisplayName>剑心通明</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>极情于剑，不为外物纷扰，是为通明剑心。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力\n从根本上提高法宝速度\n从根本上提高法宝转向速度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_5</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_6">
+		<DisplayName>心剑交感</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>以心感剑，如鱼得水，是为心剑交感。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力\n从根本上提高法宝灵气值\n从根本上提高法宝灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_6</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_7">
+		<DisplayName>神御剑</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>专注与剑本身之灵性，完全发挥剑意，谓神御之剑。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力\n从根本上提高法宝速度\n从根本上提高法宝转向速度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_7</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_8">
+		<DisplayName>神合剑</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>心神与剑相合，谓神合之剑。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高心境\n从根本上提高法宝威力\n从根本上提高法宝灵气值\n从根本上提高法宝灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_8</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_9">
+		<DisplayName>极剑·一</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以剑唯一，舍剑无物，此法可大幅提升心境及法宝速度。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高心境\n大幅提高法宝速度\n大幅提高法宝转向速度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_9</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_10">
+		<DisplayName>我剑·一</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>以元神合剑的绝世剑法秘诀，此法可大幅提升心境及法宝灵气。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高心境\n大幅提高法宝灵气值\n大幅提高法宝灵气恢复速度[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_10</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_11">
+		<DisplayName>击字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝威力[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_11</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_12">
+		<DisplayName>刺字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝速度[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_12</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_13">
+		<DisplayName>洗字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝灵气值[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_13</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_14">
+		<DisplayName>崩字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<Hide>2</Hide>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝威力[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_14</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_15">
+		<DisplayName>点字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<Hide>2</Hide>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝速度[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_15</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_16">
+		<DisplayName>劈字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<Hide>2</Hide>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝灵气值[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_16</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_17">
+		<DisplayName>御字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝威力[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_17</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_18">
+		<DisplayName>化字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝速度[/color][/size] </EffectDesc>
+		<Modifier>GongYJ_Esoterica_18</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="GongYJ_Esoterica_19">
+		<DisplayName>分字诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>御剑伏魔诀记载的练剑秘术，需下苦功磨练。</Desc>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝灵气值[/color][/size]</EffectDesc>
+		<Modifier>GongYJ_Esoterica_19</Modifier>	
+	</Esoterica>
+	
+	
+</List></Esotericas>

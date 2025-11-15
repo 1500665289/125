@@ -1,0 +1,16 @@
+﻿<Experiences><List>
+	<Experience Name="Experiences-nvwa">
+		<DisplayName>女娲后人</DisplayName>
+		<Desc>女娲后人具有绝佳的丹器和术法资质，并显著提高术法威力</Desc>
+		<Point>-1</Point>
+		<ModifierDef>
+			<Skills>
+				<li Name="DanQi" Level="5"/>
+				<li Name="FightSkill" Level="5"/>
+			</Skills>
+		</ModifierDef>	
+		<Properties>
+				<li Name="NpcFight_SpellPowerAddP" BAddP="0.9"/>
+		</Properties>	
+	</Experience>	
+</List></Experiences>

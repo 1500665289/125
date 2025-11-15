@@ -1,0 +1,187 @@
+﻿<Gongs><List>
+	<Gong Name="Gong_YJ_None">  <!--剑法强  护盾若  灵气少  回灵快-->
+		<DisplayName>御剑伏魔诀</DisplayName>
+		<Desc>相传是从仙界流出的专修剑术之修行秘法。有九层境界，入门艰难，进阶也极难。修此秘法战斗力极其惊人，但却因杀意过重，有三重雷劫考验，凶险万分。乃是不折不扣的杀伐之术。</Desc>
+		<SelectDesc>此功法擅长御器之术，战斗力惊人，然而因杀劫太重，要经历层层天劫。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>9,9,9,9,9</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>ciqi</li>
+			<li>bihu</li>
+		</Skill>
+		<Stages>
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>剑心</DisplayName>
+				<Desc>以心证剑，寻找属于自己的剑之道。</Desc>
+				<Value>6000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>剑心</DisplayName>
+						<Desc>以心证剑，寻找属于自己的剑之道。一旦失败，则需要从头再来。[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈神识越低，越难突破。\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>Perception_1_1_3</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="6000"/>
+						</ResourceCost>
+						<Damages>
+							<li PartKind="Meridian" Name="ElixirFieldShock" Rate="1"/>
+						</Damages>
+						<AddModifier>GongYJ_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage2" Level="2">
+				<DisplayName>剑体</DisplayName>
+				<Desc>冶炼精血，铸造剑体，以大毅力挣脱桎梏。</Desc>
+				<Value>6000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>剑体</DisplayName>
+						<Desc>冶炼精血，铸造剑体，以大毅力挣脱桎梏。一旦失败，则需要从头再来。[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈神识越低，越难突破。\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>Perception_1_1_3</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="6000"/>
+						</ResourceCost>
+						<Damages>
+							<li PartKind="Meridian" Name="ElixirFieldShock" Rate="1"/>
+						</Damages>
+						<AddModifier>GongYJ_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage3" Level="3">
+				<DisplayName>剑气</DisplayName>
+				<Desc>凝聚神识，化为剑气，以大决心斩开玄关。</Desc>
+				<Value>6000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>剑气</DisplayName>
+						<Desc>凝聚神识，化为剑气，以大决心斩开玄关。一旦失败，则需要从头再来。[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈神识越低，越难突破。\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>Perception_1_1_3</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="6000"/>
+						</ResourceCost>
+						<Damages>
+							<li PartKind="Meridian" Name="ElixirFieldShock" Rate="1"/>
+						</Damages>
+						<AddModifier>GongYJ_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage4" Level="5">
+				<DisplayName>悟剑</DisplayName>
+				<Desc>感悟剑心、剑体、剑气，以剑入道。</Desc>
+				<Value>18000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>悟剑</DisplayName>
+						<Desc>感悟剑心、剑体、剑气，以剑入道。一旦失败，则需要从头再来。[color=#D06508]\n此瓶颈需反复尝试，方能逐步突破。\n此瓶颈神识越低，越难突破。\n突破失败可能会受伤。[/color]</Desc>
+						<CostTime>600</CostTime>
+						<SuccessChange>Perception_1_1_3</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<ResourceCost>
+							<Resource kind="Stage" value="18000"/>
+						</ResourceCost>
+						<Damages>
+							<li PartKind="Meridian" Name="ElixirFieldShock" Rate="1"/>
+						</Damages>
+						<AddModifier>GongYJ_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage5" Level="6">
+				<DisplayName>剑丹</DisplayName>
+				<Desc>心神气凝结为一粒剑丹，如道家金丹，混元如一。</Desc>
+				<Value>36000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>剑丹</DisplayName>
+						<Desc>心体气凝结为一粒剑丹，如道家金丹，混元如一。</Desc>
+						<CostTime>1200</CostTime>
+						<ItemCost>
+							<Item name="Item_Dan_SwordBall"/>
+						</ItemCost>
+						<AddModifier>GongYJ_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>	
+
+			<Stage Name="Stage6" Level="7">
+				<DisplayName>剑意</DisplayName>
+				<Desc>剑丹初成，天降神雷，借之凝聚剑之意志。</Desc>
+				<Value>1250000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>剑意</DisplayName>
+						<Desc>剑丸初成，天降神雷，借之凝聚剑之意志。</Desc>
+						<NeckCountdown>3000</NeckCountdown>
+						<ThunderValue>125000</ThunderValue>
+						<AddModifier>GongYJ_Thunder1</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage7" Level="9">
+				<DisplayName>剑胎</DisplayName>
+				<Desc>天劫淬炼，返璞归真，自剑丸中孕育剑胎。</Desc>
+				<Value>2500000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>剑胎</DisplayName>
+						<Desc>天劫淬炼，返璞归真，自剑丸中孕育剑胎。</Desc>
+						<NeckCountdown>6000</NeckCountdown>
+						<ThunderValue>250000</ThunderValue>
+						<AddModifier>GongYJ_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage8" Level="11">
+				<DisplayName>剑魂</DisplayName>
+				<Desc>以剑意夺取雷劫中毁灭之天道，抵达剑仙境界，一旦成功，天意震怒，将会直面最终天劫。</Desc>
+				<Value>5000000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Thunder">
+						<DisplayName>剑魂</DisplayName>
+						<Desc>以剑意夺取雷劫中毁灭之天道，抵达剑仙境界，一旦成功，天意震怒，将会直面最终天劫。</Desc>
+						<NeckCountdown>9000</NeckCountdown>
+						<ThunderValue>500000</ThunderValue>
+						<AddModifier>GongYJ_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage9" Level="12">
+				<DisplayName>剑仙</DisplayName>
+				<Desc>以天雷淬炼剑魂，以证纯阳，飞升天衢。</Desc>
+				<Value>10000000</Value>
+				<Necks>
+					<Neck Location="0.9" Kind="Chance">
+						<DisplayName>剑途</DisplayName>
+						<Desc>本世提升之机仅成仙一途。一旦过此关，天意震怒，将会直面最终天劫。</Desc>
+						<CostTime>5000</CostTime>
+						<SuccessChange>1</SuccessChange>
+					</Neck>
+					<Neck Location="1" Kind="God">
+						<DisplayName>剑仙</DisplayName>
+						<Desc>以天雷淬炼剑魂，以证纯阳，飞升天衢。</Desc>
+						<NeckCountdown>18000</NeckCountdown>
+						<ThunderValue>1000000</ThunderValue>
+						<AddModifier>GongYJ_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

@@ -1,0 +1,19 @@
+ID	IsHide	LastName	FristName	Desc	Sex	Age	BodyType	Hair	Beard	ClothesStuff	BodyColor	BackStory1	BackStory2	BackStory3	Feature1	Feature2	Feature3	Experience1	Experience2	Experience3	Experience4	Relation1	Relation2	Relation3	Relation4	Mod	FixedLooks
+ID	是否隐藏1 不参与随机但参与创建
+2 不参与随机也不参与创建	姓	名	轮回者来源	性别(1男2女)	年龄	身体类型(1正常2壮3胖)	头发ID	胡须ID	衣服主材料	肤色(正常0白1黑2黄3)	背景故事1	背景故事2	背景故事3	附加特性1	附加特性2	附加特性3	经历1	经历2	经历3	经历4	关系1(ID|NAME)	关系2(ID|NAME)	关系3(ID|NAME)	创建方式		
+1206954230	0	紫	萱	仙剑奇侠传三	2	16	2	2	5		0	10695423	10695424					Experiences-nvwa	Experiences11	Experiences12	Experiences13	1206954241|Lover				Mod/Npc/Human/Npc1/zx.FBX	Spr/Npc/zx.png
+1206954231	0	唐	雪见	仙剑奇侠传三	2	16	2	4	5		0	10695425	10695426					Experiences11	Experiences12	Experiences13	Experiences30	1206954241|Lover				Mod/Npc/Human/Npc1/xj.FBX	Spr/Npc/xj.png
+1206954232	0	景	天	仙剑奇侠传三	1	16	1	2	5		0	10695427	10695428					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/jt.FBX	Spr/Npc/jt.png
+1206954233	0	徐	长卿	仙剑奇侠传三	1	16	1	4	5		0	10695439	10695440					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/cq.FBX	Spr/Npc/cq.png
+1206954234	0	龙	葵	仙剑奇侠传三	2	16	2	3	0		0	10695430	10695429					Experiences11	Experiences12	Experiences13	Experiences30	1206954241|Lover				Mod/Npc/Human/Npc1/lk.FBX	Spr/Npc/lk.png
+1206954235	0	南宫	煌	仙剑奇侠传三·问情篇	1	16	1	2	5		0	10695431	10695432					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/ngh.FBX	Spr/Npc/ngh.png
+1206954236	0	星	璇	仙剑奇侠传三·问情篇	1	16	1	2	5		0	10695433	10695434					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/xx.FBX	Spr/Npc/xx.png
+1206954237	0	姜	葵	仙剑奇侠传三	2	16	2	3	0		0	10695430	10695429					Experiences11	Experiences12	Experiences13	Experiences30	1206954241|Lover				Mod/Npc/Human/Npc1/hlk/lk.FBX	Spr/Npc/hlk.png
+1206954238	0	温	慧	仙剑奇侠传三·问情篇	2	16	2	3	0		0	10695435	10695436					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/wh.FBX	Spr/Npc/wh.png
+1206954239	0	王	蓬絮	仙剑奇侠传三·问情篇	2	16	2	2	5		0	10695437	10695438					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/wpx.FBX	Spr/Npc/wpx.png
+1206954240	0	重	楼	仙剑奇侠传三	1	16	1	2	5		0	1069029	1069030					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/cl.FBX	Spr/Npc/cl.png
+1206954241	0	李	逍遥	仙剑奇侠传一	1	16	1	2	5		0	1069013	1069014					Experiences11	Experiences12	Experiences13	Experiences30	1206954242|Lover	1206954243|Lover	1206954234|Lover		Mod/Npc/Human/Npc1/lxy.FBX	Spr/Npc/lxy.png
+1206954242	0	赵	灵儿	仙剑奇侠传一	2	16	2	2	5		0	1069059	1069060					Experiences-nvwa	Experiences11	Experiences12	Experiences13	1206954241|Lover				Mod/Npc/Human/Npc1/zle.FBX	Spr/Npc/zle.png
+1206954243	0	林	月如	仙剑奇侠传一	2	16	2	2	5		0	1069073	1069074					Experiences11	Experiences12	Experiences13	Experiences30	1206954241|Lover				Mod/Npc/Human/Npc1/lyr.FBX	Spr/Npc/lyr.png
+1206954244	0	阿	奴	仙剑奇侠传	2	16	2	2	5		0	1069071	1069072					Experiences11	Experiences12	Experiences13	Experiences30	1206954241|Lover				Mod/Npc/Human/Npc1/anu.FBX	Spr/Npc/anu.png
+1206954245	0	司徒	钟	仙剑奇侠传一	1	16	1	2	5		0	1069075	1069076					Experiences11	Experiences12	Experiences13	Experiences30					Mod/Npc/Human/Npc1/jjx.FBX	Spr/Npc/jjx.png
